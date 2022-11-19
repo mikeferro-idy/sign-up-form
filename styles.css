@@ -1,0 +1,36 @@
+.container, html, body {
+    height: 100vh !important;
+}
+
+body{
+    color: #fff;
+    font-family: sans-serif;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    display: flex;
+}
+
+.left-side {
+    background-color: rgba(219, 40, 40, 0.5);
+    background-image: url(./images/image.jpg);
+    flex: 1;
+}
+
+.right-side{
+    background-color: rgba(33, 133, 208, 0.5);
+    flex: 2;
+}
+
+.card-image {
+
+}
+
+.card-body {
+   
+}
